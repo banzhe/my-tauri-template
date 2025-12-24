@@ -1,5 +1,6 @@
-import { render } from "preact";
-import App from "./App";
-import "./index.css"
+import { render } from 'preact'
+import App from './App'
+import './index.css'
 
-render(<App />, document.getElementById("root")!);
+// biome-ignore lint/style/noNonNullAssertion: root
+render(<App />, document.getElementById('root')!)
