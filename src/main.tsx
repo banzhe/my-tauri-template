@@ -1,6 +1,11 @@
-import { render } from 'preact'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 import App from './App'
 import './index.css'
 
 // biome-ignore lint/style/noNonNullAssertion: root
-render(<App />, document.getElementById('root')!)
+createRoot(document.getElementById('root')!).render(
+	<StrictMode>
+		<App />
+	</StrictMode>
+)
