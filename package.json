@@ -17,7 +17,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.562.0",
-    "preact": "^10.25.1",
+    "preact": "^10.28.1",
     "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4.1.18"
   },
