@@ -8,7 +8,7 @@ refreshTauriTitle()
 
 // biome-ignore lint/style/noNonNullAssertion: root
 createRoot(document.getElementById('root')!).render(
-	<StrictMode>
-		<App />
-	</StrictMode>,
+  <StrictMode>
+    <App />
+  </StrictMode>,
 )
